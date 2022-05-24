@@ -30,6 +30,31 @@ function touch {
     }
 }
 
+function doom {
+    emacs -Q -nw $ARGS -l c:\users\daniel\.emacs.d\init.el -f "doom-run-all-startup-hooks-h"
+}
+
+function doomc {
+    runemacs -Q $ARGS -l c:\users\daniel\.emacs.d\init.el -f "doom-run-all-startup-hooks-h"
+}
+
+# Edit functions, will eventually move to SetDB
+# ed for edit
+# ced for cd to ed folder
+# ned for new ed file
+function ed {
+    nvim(gc $HOME\Documents\fsw\$ARGS)
+}
+function ced {
+    cd(fp(gc $HOME\Documents\fsw\$ARGS | select -first 1))
+}
+function ned {
+    nvim $HOME\Documents\fsw\$ARGS
+}
+function fed {
+    echo $HOME\Documents\fsw\$ARGS
+}
+
 function barc {
     <#
     .Description
@@ -62,6 +87,10 @@ function lx([Parameter(ValueFromRemainingArguments)][string]$Text) {
     $Text = $Text.replace("!p", "powershell.exe -noprofile")
     $Text = $Text.replace("!to", "|")
     wsl /bin/bash -c $Text
+}
+
+function yts([Parameter(ValueFromRemainingArguments)][string]$Text) {
+    yt-dlp -i -j ytsearch$Text
 }
 
 
