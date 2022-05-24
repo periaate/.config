@@ -1,0 +1,86 @@
+
+    [
+        {
+            "command": "unbound",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "toggleSplitOrientation",
+            "keys": "alt+shift+s"
+        },
+        {
+            "command": "toggleFocusMode",
+            "keys": "alt+shift+e"
+        }
+    ],
+        {
+            "background": "#3A3A3A",
+            "black": "#1E2320",
+            "blue": "#506070",
+            "brightBlack": "#709080",
+            "brightBlue": "#94BFF3",
+            "brightCyan": "#93E0E3",
+            "brightGreen": "#C3BF9F",
+            "brightPurple": "#318BEC",
+            "brightRed": "#DCA3A3",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F0DFAF",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#8CD0D3",
+            "foreground": "#DCDCCC",
+            "green": "#60B48A",
+            "name": "Zenburn",
+            "purple": "#666666",
+            "red": "#D78787",
+            "selectionBackground": "#FFFFFF",
+            "white": "#DCDCCC",
+            "yellow": "#DFAF8F"
+        },
+        {
+            "background": "#3A3A3A",
+            "black": "#445C4D",
+            "blue": "#506070",
+            "brightBlack": "#709080",
+            "brightBlue": "#94BFF3",
+            "brightCyan": "#93E0E3",
+            "brightGreen": "#35A4C3",
+            "brightPurple": "#8C93FF",
+            "brightRed": "#DC9D99",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F0DFAF",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#8CD0D3",
+            "foreground": "#DCDCCC",
+            "green": "#60B48A",
+            "name": "zHeal",
+            "purple": "#DC8CC3",
+            "red": "#D77777",
+            "selectionBackground": "#FFFFFF",
+            "white": "#DCDCCC",
+            "yellow": "#DFAF8F"
+        }
+    ],
